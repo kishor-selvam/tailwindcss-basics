@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WhatsApp UI</title>
+    <title>Chat | WhatsApp</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+
     <link rel="stylesheet" href="assets/css/output.css" />
   </head>
-  <body class="bg-green-300 p-10">
+  <body class="bg-green-300 border-2 p-10">
     <h1 class="font-black text-center mb-5">
       Whatsapp UI Challenge(Screen #1)
     </h1>
-    <section class="bg-white max-w-md mx-auto">
+    <section class="bg-white  border-black max-w-md mx-auto">
       <div
         class="bg-emerald-800 text-white px-3 py-5 flex justify-between items-center"
       >
@@ -63,10 +65,10 @@
               class="bg-white text-emerald-700 p-0.5 w-5 h-5 text-xs flex justify-center items-center rounded-full ml-2"
               >10</span
             >
-            <div class="w-20 absolute top-8 bg-white h-0.5"></div>
+            <div class="w-full absolute top-8 bg-white h-0.5"></div>
           </div>
           <div class="uppercase font-medium text-sm items-center flex">
-            <span class="ml-2">STATUS</span>
+            <a href="status.html">STATUS</a>
           </div>
           <div class="uppercase font-medium text-sm items-center flex">
             <span class="ml-2">CALLS</span>
@@ -74,7 +76,7 @@
         </li>
       </ul>
       <!-- Chats Screen -->
-      <div class="bg-white">
+      <div class="bg-white relative">
         <div
           class="bg-white px-3 py-3 flex items-center space-x-4 hover:cursor-pointer hover:bg-gray-100"
         >
@@ -113,7 +115,7 @@
             <span class="text-emerald-600 font-semibold text-sm">03:14PM</span>
             <span
               class="w-5 h-5 p-2 text-sm rounded-full text-white bg-emerald-600 flex items-center justify-center"
-              >2</span
+              >62</span
             >
           </div>
         </div>
@@ -196,6 +198,29 @@
               >2</span
             >
           </div>
+        </div>
+        <div class="bg-white px-3 py-3 flex items-center space-x-4 hover:cursor-pointer hover:bg-gray-100">
+          <div>
+            <img
+              src="https://ui-avatars.com/api/?name=Asif N&background=random&color=fff"
+              alt="Kishor S"
+              class="rounded-full"
+            />
+          </div>
+          <div class="flex-1">
+            <h4 class="font-semibold">Asif</h4>
+            <p class="text-gray-500 text-sm">Enna bro pantra</p>
+          </div>
+          <div class="flex flex-col items-center space-y-1">
+            <span class="text-emerald-600 font-semibold text-sm">01:54PM</span>
+            <span
+              class="w-5 h-5 p-2 text-sm rounded-full text-white bg-emerald-600 flex items-center justify-center"
+              >2</span
+            >
+          </div>
+        </div>
+        <div class="bg-emerald-700 hover:bg-emerald-900 cursor-pointer flex items-center justify-center w-14 h-14 p-2 rounded-2xl absolute right-4 bottom-6 shadow-gray-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-white fill-current" width="30" height="30" viewBox="0 0 24 24"><path  d="M6 14h8v-2H6v2Zm0-3h1 2V9H6v2Zm0-3h12V6H6v2ZM2 22V4q0-.825.588-1.413T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H6l-4 4Zm3.15-6H20V4H4v13.125L5.15 16ZM4 16V4v12Z"/></svg>
         </div>
       </div>
     </section>
